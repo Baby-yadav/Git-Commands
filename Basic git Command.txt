@@ -1,0 +1,34 @@
+Basic Git command
+==================
+
+1)git init  ->to initilize a new repository in your current directry
+
+2)git clone <URL>  -> to clone an existing repo from a url to your local machine
+
+3)git status ->show the current status of working directory and staging area,display changes that has been staged , those that haven't ,
+               and files that aren't tracked by Git
+			   
+4)git add <File directory>  ->stages changes (mosifies or new files ) to be commited 
+
+5)git add .  ->to stage all changes int the  current directory.
+
+6)git reset <File> ->command to unstage the specified file 
+
+7)git commit -m "commit message" ->commit the stages changes  to repo with msg discribing.
+
+8)git log -> shoes commit historyfor repo with details such commitID ,author,date and message.
+
+9)git branch -> list all the branch and highlight the current branch.
+
+10)git checkout <branch> ->switvh to the different branch.
+
+11)git checkout -b <new branch> ->fir creating and switching to new branch.
+
+12)git merge <branch>  ->merge the  specified branch into the current branch.
+
+13)git pull -> fetch all the updates from the remote repository and merge into the current branch.
+
+14)git push push your commited changes into a remote repository ,like gitHub or GitLab.
+
+15
+
