@@ -1,0 +1,32 @@
+If we have file in local and want to push in remote repo
+=========================================================
+
+1)git status
+
+2)git init  ->If your local directory is not already a Git repository, initialize it:
+
+3)git remote add origin <remote-repo- Url> ->If you haven’t added the remote repository yet, you need to do so. Replace <remote-repo-url> 
+                                             with the URL of your remote repository:
+											 
+4)git remote -v ->You can check if the remote is set up correctly by running
+
+5)git add <your-file> ->If you haven't added the file to the staging area yet, do so
+
+6)git commit -m "Add <your-file> with initial content"
+
+7)git pull origin main --allow-unrelated-histories ->Since the remote repository already has a main branch, you need to ensure that your
+                                                     local branch is up-to-date with the remote branch.
+                                                     Use the --allow-unrelated-histories flag if the histories are unrelated
+													 
+8)git commit ->
+
+9)git push -u origin main
+
+
+Summary
+Initialize the repository (if not already initialized): git init
+Add the remote repository: git remote add origin <remote-repo-url>
+Add your file: git add <your-file>
+Commit your changes: git commit -m "Add <your-file>"
+Pull from the remote repository: git pull origin main --allow-unrelated-histories
+Push your changes: git push -u origin main													 
