@@ -1,0 +1,25 @@
+Create the Branch in Local repository  and push into the Central repository
+===========================================================================
+
+1)git clone <Repo Url>
+
+2)git branch (To know the current Branch)
+
+3)git branch -a (to know all the branch)
+
+4)git checkout -b <new-branch> -> to make new branch and switch to that
+
+5)git add .  
+
+6)git commit -m "new Changes"
+
+7)git push origin <new_branch>
+
+
+
+8)after that clone the repository 
+then switch to the <new_branch>
+
+9)git fetch origin
+
+10)git log --oneline 
