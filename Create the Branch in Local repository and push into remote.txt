@@ -7,19 +7,14 @@ Create the Branch in Local repository  and push into the Central repository
 
 3)git branch -a (to know all the branch)
 
-4)git checkout -b <new-branch> -> to make new branch and switch to that
+4)git checkout -b <new-branch> -> to make new branch and switch to that branch
 
-5)git add .  
-
-6)git commit -m "new Changes"
-
-7)git push origin <new_branch>
+5)git remote add origin <remote-repo- Url> ->If you haven’t added the remote repository yet, you need to do so. Replace <remote-repo-url> 
 
 
+6)git add .  
 
-8)after that clone the repository 
-then switch to the <new_branch>
+7)git commit -m "new Changes"
 
-9)git fetch origin
+8)git push -u origin <new_branch>
 
-10)git log --oneline 
